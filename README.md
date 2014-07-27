@@ -3,6 +3,6 @@ ObjCAlgorithms
 
 Implementations of popular algorithms implemented in Objective-C
 
-# Sorting 
+### Sorting 
 - Insertion sort
 - Selection sort
