@@ -15,6 +15,8 @@
 		2B6F9F67197C379D0090D061 /* AlgorithmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F66197C379D0090D061 /* AlgorithmsTests.m */; };
 		2B6F9F74197C37F20090D061 /* DRBInsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F73197C37F20090D061 /* DRBInsertionSort.m */; };
 		2B6F9F77197C77B00090D061 /* DRBSelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F76197C77B00090D061 /* DRBSelectionSort.m */; };
+		2BCA760B19859BCC009B23A2 /* DRBMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA760A19859BCC009B23A2 /* DRBMergeSort.m */; };
+		2BCA76101985AF6D009B23A2 /* DRBBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA760F1985AF6D009B23A2 /* DRBBubbleSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		2B6F9F73197C37F20090D061 /* DRBInsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBInsertionSort.m; sourceTree = "<group>"; };
 		2B6F9F75197C77B00090D061 /* DRBSelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBSelectionSort.h; sourceTree = "<group>"; };
 		2B6F9F76197C77B00090D061 /* DRBSelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBSelectionSort.m; sourceTree = "<group>"; };
+		2BCA760919859BCC009B23A2 /* DRBMergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBMergeSort.h; sourceTree = "<group>"; };
+		2BCA760A19859BCC009B23A2 /* DRBMergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBMergeSort.m; sourceTree = "<group>"; };
+		2BCA760E1985AF6D009B23A2 /* DRBBubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRBBubbleSort.h; sourceTree = "<group>"; };
+		2BCA760F1985AF6D009B23A2 /* DRBBubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRBBubbleSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +132,7 @@
 		2B6F9F70197C37A90090D061 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				2B6F9F71197C37B00090D061 /* Insertion Sort */,
-				2B6F9F78197C7CD40090D061 /* Selection Sort */,
+				2BCA760C1985AEFE009B23A2 /* Sorting Algorithms */,
 			);
 			name = Algorithms;
 			sourceTree = "<group>";
@@ -148,6 +153,35 @@
 				2B6F9F76197C77B00090D061 /* DRBSelectionSort.m */,
 			);
 			name = "Selection Sort";
+			sourceTree = "<group>";
+		};
+		2BCA760819859BB0009B23A2 /* Merge Sort */ = {
+			isa = PBXGroup;
+			children = (
+				2BCA760919859BCC009B23A2 /* DRBMergeSort.h */,
+				2BCA760A19859BCC009B23A2 /* DRBMergeSort.m */,
+			);
+			name = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		2BCA760C1985AEFE009B23A2 /* Sorting Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				2BCA760D1985AF5D009B23A2 /* Bubble Sort */,
+				2B6F9F71197C37B00090D061 /* Insertion Sort */,
+				2B6F9F78197C7CD40090D061 /* Selection Sort */,
+				2BCA760819859BB0009B23A2 /* Merge Sort */,
+			);
+			name = "Sorting Algorithms";
+			sourceTree = "<group>";
+		};
+		2BCA760D1985AF5D009B23A2 /* Bubble Sort */ = {
+			isa = PBXGroup;
+			children = (
+				2BCA760E1985AF6D009B23A2 /* DRBBubbleSort.h */,
+				2BCA760F1985AF6D009B23A2 /* DRBBubbleSort.m */,
+			);
+			name = "Bubble Sort";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B6F9F56197C379D0090D061 /* ViewController.m in Sources */,
+				2BCA76101985AF6D009B23A2 /* DRBBubbleSort.m in Sources */,
 				2B6F9F74197C37F20090D061 /* DRBInsertionSort.m in Sources */,
 				2B6F9F53197C379D0090D061 /* AppDelegate.m in Sources */,
 				2B6F9F77197C77B00090D061 /* DRBSelectionSort.m in Sources */,
 				2B6F9F50197C379D0090D061 /* main.m in Sources */,
+				2BCA760B19859BCC009B23A2 /* DRBMergeSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +474,7 @@
 				2B6F9F6C197C379D0090D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6F9F6D197C379D0090D061 /* Build configuration list for PBXNativeTarget "AlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +483,7 @@
 				2B6F9F6F197C379D0090D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
