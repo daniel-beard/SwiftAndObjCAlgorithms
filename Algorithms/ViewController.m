@@ -11,6 +11,7 @@
 #import "DRBInsertionSort.h"
 #import "DRBSelectionSort.h"
 #import "DRBMergeSort.h"
+#import "Algorithms-Swift.h"
 
 @interface ViewController ()
 
@@ -22,18 +23,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    SwiftTest *test = [[SwiftTest alloc] init];
+    [test start];
     
-    NSMutableArray *array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
-    NSLog(@"Bubble Sort: %@", [DRBBubbleSort sortedArrayFromArray:array]);
-    
-    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
-    NSLog(@"Insertion Sort: %@", [DRBInsertionSort sortedArrayFromArray:array]);
-    
-    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
-    NSLog(@"Selection Sort: %@", [DRBSelectionSort sortedArrayFromArray:array]);
-    
-    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
-    NSLog(@"Merge Sort: %@", [DRBMergeSort sortedArrayFromArray:array]);
+//    NSMutableArray *array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
+//    NSLog(@"Bubble Sort: %@", [DRBBubbleSort sortedArrayFromArray:array]);
+//    
+//    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
+//    NSLog(@"Insertion Sort: %@", [DRBInsertionSort sortedArrayFromArray:array]);
+//    
+//    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
+//    NSLog(@"Selection Sort: %@", [DRBSelectionSort sortedArrayFromArray:array]);
+//    
+//    array = [@[ @7, @32, @1, @12, @3, @2, @10] mutableCopy];
+//    NSLog(@"Merge Sort: %@", [DRBMergeSort sortedArrayFromArray:array]);
 }
 
 - (void)didReceiveMemoryWarning {

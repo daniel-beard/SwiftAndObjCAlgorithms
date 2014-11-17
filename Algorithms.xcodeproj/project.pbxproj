@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246E0CA81A199F1000A51DF6 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CA71A199F1000A51DF6 /* InsertionSort.swift */; };
+		246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CA91A19A41700A51DF6 /* SwiftTest.swift */; };
+		246E0CAC1A19A65F00A51DF6 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */; };
+		246E0CAE1A19A86300A51DF6 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CAD1A19A86300A51DF6 /* SelectionSort.swift */; };
 		2B6F9F50197C379D0090D061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4F197C379D0090D061 /* main.m */; };
 		2B6F9F53197C379D0090D061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F52197C379D0090D061 /* AppDelegate.m */; };
 		2B6F9F56197C379D0090D061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F55197C379D0090D061 /* ViewController.m */; };
@@ -30,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246E0CA61A199F0F00A51DF6 /* Algorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		246E0CA71A199F1000A51DF6 /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		246E0CA91A19A41700A51DF6 /* SwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
+		246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		246E0CAD1A19A86300A51DF6 /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		2B6F9F4A197C379D0090D061 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6F9F4E197C379D0090D061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6F9F4F197C379D0090D061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,10 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				2B6F9F70197C37A90090D061 /* Algorithms */,
+				246E0CA61A199F0F00A51DF6 /* Algorithms-Bridging-Header.h */,
 				2B6F9F51197C379D0090D061 /* AppDelegate.h */,
 				2B6F9F52197C379D0090D061 /* AppDelegate.m */,
 				2B6F9F54197C379D0090D061 /* ViewController.h */,
 				2B6F9F55197C379D0090D061 /* ViewController.m */,
+				246E0CA91A19A41700A51DF6 /* SwiftTest.swift */,
 				2B6F9F57197C379D0090D061 /* Main.storyboard */,
 				2B6F9F5A197C379D0090D061 /* Images.xcassets */,
 				2B6F9F4D197C379D0090D061 /* Supporting Files */,
@@ -142,6 +153,7 @@
 			children = (
 				2B6F9F72197C37F20090D061 /* DRBInsertionSort.h */,
 				2B6F9F73197C37F20090D061 /* DRBInsertionSort.m */,
+				246E0CA71A199F1000A51DF6 /* InsertionSort.swift */,
 			);
 			name = "Insertion Sort";
 			sourceTree = "<group>";
@@ -151,6 +163,7 @@
 			children = (
 				2B6F9F75197C77B00090D061 /* DRBSelectionSort.h */,
 				2B6F9F76197C77B00090D061 /* DRBSelectionSort.m */,
+				246E0CAD1A19A86300A51DF6 /* SelectionSort.swift */,
 			);
 			name = "Selection Sort";
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 			children = (
 				2BCA760E1985AF6D009B23A2 /* DRBBubbleSort.h */,
 				2BCA760F1985AF6D009B23A2 /* DRBBubbleSort.m */,
+				246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */,
 			);
 			name = "Bubble Sort";
 			sourceTree = "<group>";
@@ -283,11 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */,
 				2B6F9F56197C379D0090D061 /* ViewController.m in Sources */,
+				246E0CA81A199F1000A51DF6 /* InsertionSort.swift in Sources */,
 				2BCA76101985AF6D009B23A2 /* DRBBubbleSort.m in Sources */,
+				246E0CAE1A19A86300A51DF6 /* SelectionSort.swift in Sources */,
 				2B6F9F74197C37F20090D061 /* DRBInsertionSort.m in Sources */,
 				2B6F9F53197C379D0090D061 /* AppDelegate.m in Sources */,
 				2B6F9F77197C77B00090D061 /* DRBSelectionSort.m in Sources */,
+				246E0CAC1A19A65F00A51DF6 /* BubbleSort.swift in Sources */,
 				2B6F9F50197C379D0090D061 /* main.m in Sources */,
 				2BCA760B19859BCC009B23A2 /* DRBMergeSort.m in Sources */,
 			);
@@ -404,9 +422,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Algorithms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithms/Algorithms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,9 +436,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Algorithms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algorithms/Algorithms-Bridging-Header.h";
 			};
 			name = Release;
 		};
