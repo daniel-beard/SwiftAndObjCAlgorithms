@@ -11,6 +11,10 @@
 		246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CA91A19A41700A51DF6 /* SwiftTest.swift */; };
 		246E0CAC1A19A65F00A51DF6 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */; };
 		246E0CAE1A19A86300A51DF6 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CAD1A19A86300A51DF6 /* SelectionSort.swift */; };
+		24C10F881A42395400E45B8D /* DBStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C10F871A42395400E45B8D /* DBStack.swift */; };
+		24C10F8A1A423BC700E45B8D /* DBQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C10F891A423BC700E45B8D /* DBQueue.swift */; };
+		24C10F8D1A423DE100E45B8D /* Int+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C10F8C1A423DE100E45B8D /* Int+Additions.swift */; };
+		24C10F8F1A423E3F00E45B8D /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C10F8E1A423E3F00E45B8D /* Array+Additions.swift */; };
 		2B6F9F50197C379D0090D061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F4F197C379D0090D061 /* main.m */; };
 		2B6F9F53197C379D0090D061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F52197C379D0090D061 /* AppDelegate.m */; };
 		2B6F9F56197C379D0090D061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F9F55197C379D0090D061 /* ViewController.m */; };
@@ -39,6 +43,10 @@
 		246E0CA91A19A41700A51DF6 /* SwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
 		246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		246E0CAD1A19A86300A51DF6 /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		24C10F871A42395400E45B8D /* DBStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBStack.swift; sourceTree = "<group>"; };
+		24C10F891A423BC700E45B8D /* DBQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBQueue.swift; sourceTree = "<group>"; };
+		24C10F8C1A423DE100E45B8D /* Int+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Additions.swift"; sourceTree = "<group>"; };
+		24C10F8E1A423E3F00E45B8D /* Array+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
 		2B6F9F4A197C379D0090D061 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6F9F4E197C379D0090D061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6F9F4F197C379D0090D061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24C10F861A42393E00E45B8D /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				24C10F871A42395400E45B8D /* DBStack.swift */,
+				24C10F891A423BC700E45B8D /* DBQueue.swift */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		24C10F8B1A423DC100E45B8D /* Additions / Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				24C10F8C1A423DE100E45B8D /* Int+Additions.swift */,
+				24C10F8E1A423E3F00E45B8D /* Array+Additions.swift */,
+			);
+			name = "Additions / Helpers";
+			sourceTree = "<group>";
+		};
 		2B6F9F41197C379D0090D061 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +169,8 @@
 		2B6F9F70197C37A90090D061 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				24C10F8B1A423DC100E45B8D /* Additions / Helpers */,
+				24C10F861A42393E00E45B8D /* Data Structures */,
 				2BCA760C1985AEFE009B23A2 /* Sorting Algorithms */,
 			);
 			name = Algorithms;
@@ -298,14 +326,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */,
+				24C10F881A42395400E45B8D /* DBStack.swift in Sources */,
 				2B6F9F56197C379D0090D061 /* ViewController.m in Sources */,
 				246E0CA81A199F1000A51DF6 /* InsertionSort.swift in Sources */,
 				2BCA76101985AF6D009B23A2 /* DRBBubbleSort.m in Sources */,
+				24C10F8A1A423BC700E45B8D /* DBQueue.swift in Sources */,
 				246E0CAE1A19A86300A51DF6 /* SelectionSort.swift in Sources */,
 				2B6F9F74197C37F20090D061 /* DRBInsertionSort.m in Sources */,
 				2B6F9F53197C379D0090D061 /* AppDelegate.m in Sources */,
+				24C10F8F1A423E3F00E45B8D /* Array+Additions.swift in Sources */,
 				2B6F9F77197C77B00090D061 /* DRBSelectionSort.m in Sources */,
 				246E0CAC1A19A65F00A51DF6 /* BubbleSort.swift in Sources */,
+				24C10F8D1A423DE100E45B8D /* Int+Additions.swift in Sources */,
 				2B6F9F50197C379D0090D061 /* main.m in Sources */,
 				2BCA760B19859BCC009B23A2 /* DRBMergeSort.m in Sources */,
 			);

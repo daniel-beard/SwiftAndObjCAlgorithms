@@ -26,5 +26,24 @@ import Foundation
         // Selection Sort
         println("Selection Sort Sorted Int array: \(SelectionSort(array))")
         println("Selection Sort Sorted string array: \(SelectionSort(stringArray))")
+        
+        //TODO:
+        println("Array: \(array)")
+        println("Shuffled array: \(array.shuffle())")
+        
+        var stack = DBStack<String>()
+        stack.push("a")
+        stack.push("b")
+        println("Pop: \(stack.pop())")
+        println("Pop: \(stack.pop())")
+        println("Pop: \(stack.pop())")
+        
+        var queue = DBQueue<Int>()
+        for i in 0..<4 {
+            queue.enqueue(i)
+        }
+        for i in 0..<4 {
+            println("Dequeue: \(queue.dequeue())")
+        }
     }
 }
