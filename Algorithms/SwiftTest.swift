@@ -12,38 +12,38 @@ import Foundation
     
     public func start() {
         
-        var array = [5, 2, 3, 1, 7]
-        var stringArray = ["c", "a", "z", "b", "t"]
+        let array = [5, 2, 3, 1, 7]
+        let stringArray = ["c", "a", "z", "b", "t"]
         
         // Bubble Sort
-        println("BubbleSort Sorted Int array: \(BubbleSort(array))")
-        println("BubbleSort Sorted string array: \(BubbleSort(stringArray))")
+        print("BubbleSort Sorted Int array: \(BubbleSort(array))")
+        print("BubbleSort Sorted string array: \(BubbleSort(stringArray))")
         
         // Insertion Sort
-        println("Insertion Sort Sorted Int array: \(InsertionSort(array))")
-        println("Insertion Sort Sorted string array: \(InsertionSort(stringArray))")
+        print("Insertion Sort Sorted Int array: \(InsertionSort(array))")
+        print("Insertion Sort Sorted string array: \(InsertionSort(stringArray))")
         
         // Selection Sort
-        println("Selection Sort Sorted Int array: \(SelectionSort(array))")
-        println("Selection Sort Sorted string array: \(SelectionSort(stringArray))")
+        print("Selection Sort Sorted Int array: \(SelectionSort(array))")
+        print("Selection Sort Sorted string array: \(SelectionSort(stringArray))")
         
         //TODO:
-        println("Array: \(array)")
-        println("Shuffled array: \(array.shuffle())")
+        print("Array: \(array)")
+        print("Shuffled array: \(array.shuffle())")
         
         var stack = DBStack<String>()
         stack.push("a")
         stack.push("b")
-        println("Pop: \(stack.pop())")
-        println("Pop: \(stack.pop())")
-        println("Pop: \(stack.pop())")
+        print("Pop: \(stack.pop())")
+        print("Pop: \(stack.pop())")
+        print("Pop: \(stack.pop())")
         
         var queue = DBQueue<Int>()
         for i in 0..<4 {
             queue.enqueue(i)
         }
-        for i in 0..<4 {
-            println("Dequeue: \(queue.dequeue())")
+        for _ in 0..<4 {
+            print("Dequeue: \(queue.dequeue())")
         }
     }
 }

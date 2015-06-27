@@ -11,8 +11,7 @@ import Foundation
 // Returns a random Int in the range min..max
 func random(min: Int, max: Int) -> Int {
     let range = max - min
-    let randWithRange = Int(arc4random_uniform(UInt32(range)))
-    let value: Int = randWithRange + min
+    let value: Int = Int(arc4random_uniform(UInt32(range))) + min
     return value
 }
 
