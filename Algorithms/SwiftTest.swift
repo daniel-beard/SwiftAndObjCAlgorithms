@@ -45,5 +45,9 @@ import Foundation
         for _ in 0..<4 {
             print("Dequeue: \(queue.dequeue())")
         }
+        
+        var shuffleArray = [1, 2, 3, 4, 5, 6]
+        shuffleArray.fisherYatesShuffle()
+        print("Fisher-Yates shuffled array: \(shuffleArray)")
     }
 }
