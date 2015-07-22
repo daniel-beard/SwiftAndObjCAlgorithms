@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241717B01B60118F0007D21C /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241717AF1B60118F0007D21C /* BinaryTree.swift */; };
 		246E0CA81A199F1000A51DF6 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CA71A199F1000A51DF6 /* InsertionSort.swift */; };
 		246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CA91A19A41700A51DF6 /* SwiftTest.swift */; };
 		246E0CAC1A19A65F00A51DF6 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E0CAB1A19A65F00A51DF6 /* BubbleSort.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241717AF1B60118F0007D21C /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		246E0CA61A199F0F00A51DF6 /* Algorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
 		246E0CA71A199F1000A51DF6 /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		246E0CA91A19A41700A51DF6 /* SwiftTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241717AE1B6011080007D21C /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				241717AF1B60118F0007D21C /* BinaryTree.swift */,
+			);
+			name = Trees;
+			sourceTree = "<group>";
+		};
 		24C10F861A42393E00E45B8D /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +179,7 @@
 		2B6F9F70197C37A90090D061 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				241717AE1B6011080007D21C /* Trees */,
 				24C10F8B1A423DC100E45B8D /* Additions / Helpers */,
 				24C10F861A42393E00E45B8D /* Data Structures */,
 				2BCA760C1985AEFE009B23A2 /* Sorting Algorithms */,
@@ -326,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241717B01B60118F0007D21C /* BinaryTree.swift in Sources */,
 				246E0CAA1A19A41700A51DF6 /* SwiftTest.swift in Sources */,
 				24C10F881A42395400E45B8D /* DBStack.swift in Sources */,
 				2B6F9F56197C379D0090D061 /* ViewController.m in Sources */,

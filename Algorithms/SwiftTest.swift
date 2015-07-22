@@ -27,7 +27,6 @@ import Foundation
         print("Selection Sort Sorted Int array: \(SelectionSort(array))")
         print("Selection Sort Sorted string array: \(SelectionSort(stringArray))")
         
-        //TODO:
         print("Array: \(array)")
         print("Shuffled array: \(array.shuffle())")
         
@@ -49,5 +48,18 @@ import Foundation
         var shuffleArray = [1, 2, 3, 4, 5, 6]
         shuffleArray.fisherYatesShuffle()
         print("Fisher-Yates shuffled array: \(shuffleArray)")
+        
+        var tree = Tree<Int>()
+        tree = tree.insert(3)
+        tree = tree.insert(2)
+        tree = tree.insert(7)
+        tree = tree.insert(1)
+        tree = tree.insert(5)
+        tree = tree.insert(6)
+        tree = tree.insert(9)
+        tree = tree.insert(7)
+        print("Tree contains 2? \(tree.contains(2))")
+        tree.inOrderTraversal()
+        tree.inOrderPrettyPrint(tree)
     }
 }
